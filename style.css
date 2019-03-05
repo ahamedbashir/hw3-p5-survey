@@ -2,13 +2,18 @@ body{
     background-color: blanchedalmond;
 }
 
+.form-body {
+    display: grid;
+    grid-row-gap: 1em;
+    background-color: aqua;
+}
 .rows{
     display: grid;
     grid-template-columns:40% 30%;
     grid-column-gap: 1em;
 }
 .label {
-    text-align: end;
+    justify-self: end;
 }
 
 h1, #description {
