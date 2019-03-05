@@ -20,14 +20,14 @@
             <div class="rows">
                 <!--EMAIL-->
                 <!-- User Story #6: If entered email is not formatted correctly, I will see an HTML5 validation error. -->
-                <label id="email-label" class="label" for="">Email ID</label>
-                <input type="email" name="" id="email" placeholder="Enter your email">
+                <label id="email-label" class="label" for="email">* Email ID</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
             </div>
 
             <div class="rows">
                 <!--number-->
                 <label id="number-label" class="label" for="">How old are you?</label>
-                <input type="number" name="" id="number" placeholder="Enter your Age" min="1" max="100">
+                <input type="number" name="" id="number" placeholder="Enter your Age" min="1" max="120">
             </div>
 
             <div class="rows">
@@ -47,12 +47,32 @@
                 </select>
             </div>
 
-            <div class="rows">
+            <div class="box">
                 <!--major/department-->
+                <label class="label" for="major">What's your major or department</label>
+                <ul style="list-style: none;">
+                    <li class="radio">
+                        <label for="csc"><input type="radio" name="radio-buttons" value="1" type="radio" id="csc">Computer Science</label>
+                    </li>
+                    <li class="radio">
+                        <label for="ce"><input type="radio" name="radio-buttons" value="2" type="radio" id="ce">Computer Engineering</label>
+                    </li>
+                    <li class="radio">
+                            <label for="others"><input type="radio" name="radio-buttons" value="3" type="radio" id="others">others</label>
+                    </li>
+                    
+                </ul>
             </div>
 
+    
             <div class="rows">
-                <!--skills-->
+                <!--Skills-->
+                <ul id="skills">
+                    <li>
+
+                    </li>
+                    
+                </ul>
             </div>
             <button id="submit" type="submit">Submit</button>
         </form>
