@@ -1,0 +1,16 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.rows{
+    display: grid;
+    grid-template-columns:40% 30%;
+    grid-column-gap: 1em;
+}
+.label {
+    text-align: end;
+}
+
+h1, #description {
+    text-align: center;
+}
