@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(79, 95, 93);
+    background-color: rgb(167, 211, 205);
     text-align: center;
 }
 
@@ -7,7 +7,7 @@ body{
     display: grid;
     grid-row-gap: 1em;
     background-color: rgb(37, 97, 89);
-    
+    border-radius: 10px;
 }
 
 .form-body {
@@ -19,6 +19,7 @@ body{
     grid-template-columns:40% 20%;
     grid-column-gap: 1em;
 }
+
 .label {
     justify-self: end;
 }
@@ -30,6 +31,9 @@ ul {
     display: gird;
 }
 
+#title {
+    color: black;
+}
 h1, #description {
     text-align: center;
 }
