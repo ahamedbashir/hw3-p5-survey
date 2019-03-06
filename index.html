@@ -47,7 +47,7 @@
                 </select>
             </div>
 
-            <div class="box">
+            <div class="rows">
                 <!--major/department-->
                 <label class="label" for="major">What's your major or department</label>
                 <ul style="list-style: none;">
@@ -67,12 +67,27 @@
     
             <div class="rows">
                 <!--Skills-->
-                <ul id="skills">
-                    <li>
-
+                <label class="label" for="skill">Select your majors skills</label>
+                <ul style="list-style: none;">
+                    <li class="check">
+                        <label><input name="skill" value="1" type="checkbox" >Web Development</label>
+                    </li>
+                    <li class="check">
+                        <label><input name="skill" value="2" type="checkbox" >Data Analyst</label>
+                    </li>
+                    <li class="check">
+                        <label><input name="skill" value="3" type="checkbox" >Software Engineering</label>
+                    </li>
+                    <li class="check">
+                        <label><input name="skill" value="4" type="checkbox" >Software Engineering</label>
                     </li>
                     
                 </ul>
+            </div>
+
+            <div class="boxArea">
+                <label for="otherSkills">Any other skills not mentioned above? </label>
+                <textarea name="otherSkills" id="" cols="40px" rows="" placeholder="Enter your other skills..."></textarea>
             </div>
             <button id="submit" type="submit">Submit</button>
         </form>
