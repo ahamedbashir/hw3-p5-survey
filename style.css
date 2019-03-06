@@ -1,19 +1,25 @@
 body{
-    background-color: blanchedalmond;
+    background-color: rgb(167, 211, 205);
     text-align: center;
 }
 
 #survey-form {
     display: grid;
     grid-row-gap: 1em;
-    background-color: aqua;
-    
+    background-color: rgb(37, 97, 89);
+    border-radius: 10px;
+}
+
+.form-body {
+    margin: 10px 15%;
+    border: 50px;
 }
 .rows{
     display: grid;
     grid-template-columns:40% 20%;
     grid-column-gap: 1em;
 }
+
 .label {
     justify-self: end;
 }
@@ -25,6 +31,9 @@ ul {
     display: gird;
 }
 
+#title {
+    color: black;
+}
 h1, #description {
     text-align: center;
 }
@@ -34,3 +43,13 @@ p {
     font-size: 18px;
     color: blue;
 }
+
+#submit {
+    margin: 10px 45%;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+
+
