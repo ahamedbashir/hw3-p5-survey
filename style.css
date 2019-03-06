@@ -1,19 +1,27 @@
 body{
     background-color: blanchedalmond;
+    text-align: center;
 }
 
-.form-body {
+#survey-form {
     display: grid;
     grid-row-gap: 1em;
     background-color: aqua;
 }
 .rows{
     display: grid;
-    grid-template-columns:40% 30%;
+    grid-template-columns:40% 20%;
     grid-column-gap: 1em;
 }
 .label {
     justify-self: end;
+}
+
+ul {
+    text-align: left;
+}
+.box {
+    display: gird;
 }
 
 h1, #description {
